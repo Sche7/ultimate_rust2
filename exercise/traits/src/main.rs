@@ -1,6 +1,6 @@
 use std::fmt::{Debug, Error, Formatter};
 
-#[derive(PartialEq, Eq)]
+#[derive(PartialEq)]
 pub enum Cake {
     Chocolate,
     MapleBacon,
